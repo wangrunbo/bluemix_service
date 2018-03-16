@@ -7,7 +7,7 @@ class CustomModel(object):
 
     to_dict = True
 
-    def __init__(self, username, password, model_id):
+    def __init__(self, username, password, model_id=None):
         self.username = username
         self.password = password
         self.model_id = model_id
